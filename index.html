@@ -1,12 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet web-1</title>
+    <title>Club Robotique</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icones FontAwesome pour les icones -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>HELLO WORLD</h1>
+
+    <!-- Header / Navbar -->
+    <header>
+        <div class="top-bar">
+            <div class="logo">
+                <i class="fa-solid fa-gear"></i>
+                <span>CLUB<br><strong>ROBOTIQUE</strong></span>
+            </div>
+            <div class="top-actions">
+                <a href="#" class="btn-outline">PORTES OUVERTES</a>
+                <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#" class="active">ACCUEIL</a></li>
+                <li><a href="#">PROJETS</a></li>
+                <li><a href="#">ÉVÉNEMENTS</a></li>
+                <li><a href="#">MEMBRES</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>DÉCOUVREZ LE<br><span class="green-text">CLUB ROBOTIQUE</span></h1>
+        <div class="main-img-container">
+            <img src="https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=600&q=80" alt="Club Robotique Image Main">
+        </div>
+        <p class="hero-desc">
+            Explorez l'innovation, construisez l'avenir.<br>
+            Rejoignez notre communauté de passionnés !
+        </p>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <h2>NOTRE MISSION</h2>
+        <p>
+            Le club Robotique est d'élaborer nos activités dans nos événements pour 
+            accroître l'innovation dans nos projets. Nos activités sur un environnement de travail des 
+            ressources et membres qui permettent à l'expérimentation, 
+            convaincus qu'ils sont la communauté Club robotique.
+        </p>
+        <div class="cards-grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1527977966376-1c8408f9f108?auto=format&fit=crop&w=300&q=80" alt="Drone">
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=300&q=80" alt="Robot voiture">
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=300&q=80" alt="Bras robotique">
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Card Section -->
+    <section class="event-section">
+        <div class="event-box">
+            <h2>REJOINZEZ-NOUS AUX<br><span class="green-text">PORTES OUVERTES !</span></h2>
+            <div class="event-details">
+                <div class="info-list">
+                    <p><i class="fa-regular fa-calendar-days"></i> <strong>SAMEDI 26 OCTOBRE</strong></p>
+                    <p><i class="fa-regular fa-clock"></i> <strong>9H - 17H</strong></p>
+                    <p><i class="fa-solid fa-location-dot"></i> <strong>BÂTIMENT ESPACE TECH</strong></p>
+                </div>
+                <div class="map-container">
+                    <img src="https://via.placeholder.com/150x100/e0e0e0/000000?text=Map+Location" alt="Map Location">
+                </div>
+            </div>
+            <a href="#" class="btn-green">S'INSCRIRE À L'ÉVÉNEMENT</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h3>ACCUEIL</h3>
+                <ul>
+                    <li><a href="#">Projets</a></li>
+                    <li><a href="#">Événements</a></li>
+                    <li><a href="#">Membres</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col social-col">
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-col contact-col">
+                33<h3>CONTACT</h3>
+                <p><i class="fa-regular fa-envelope"></i> info@campus.com</p>
+                <p><i class="fa-solid fa-location-dot"></i> Campus Espace Tech</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <a href="#">Mentions Légales</a>
+            <p>© 2026 CLUB ROBOTIQUE CAMPUS, TOUS DROITS RÉSERVÉS.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
